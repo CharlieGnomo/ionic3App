@@ -1,0 +1,12 @@
+{
+  "name": "ionic3App",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [{
+    "path": "/api",
+    "proxyUrl": "https://datos.madrid.es/egob/catalogo/206974-0-agenda-eventos-culturales-100.json"
+  }]
+}

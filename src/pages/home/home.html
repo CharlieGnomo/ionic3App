@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button ion-button start menuToggle><ion-icon name="menu"></ion-icon></button>
+    <ion-title>
+      Ionic 3 App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <card-comp *ngFor="let card of cards" [card]="card"></card-comp>
+  <button ion-button (click)="goToPage('SlidersPage')">{{ 'HOME.btnSliders' | translate}}</button>
+  <button ion-button (click)="goToPage('ListPage')">{{ 'HOME.btnList' | translate}}</button>
+</ion-content>

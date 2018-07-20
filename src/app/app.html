@@ -1,0 +1,39 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>{{'MENU.title' | translate}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <button menuClose ion-item (click)="goToPage('HomePage')">
+          {{'MENU.LIST.home' | translate}}
+      </button>
+      <button menuClose ion-item (click)="goToPage('SlidersPage')">
+          {{'MENU.LIST.sliders' | translate}}
+      </button>
+      <button menuClose ion-item (click)="goToPage('ListPage')">
+          {{'MENU.LIST.list' | translate}}
+      </button>
+      <button menuClose ion-item (click)="goToPage('FormPage')">
+          {{'MENU.LIST.form' | translate}}
+      </button>
+      <button menuClose ion-item (click)="goToPage('EventsPage')">
+          {{'MENU.LIST.events' | translate}}
+      </button>
+    </ion-list>
+    <ion-segment (ionChange)="setLang($event)" color="primary">
+      <ion-segment-button value="es">
+        es
+      </ion-segment-button>
+      <ion-segment-button value="en">
+        en
+      </ion-segment-button>
+      <ion-segment-button value="fr">
+        fr
+      </ion-segment-button>
+    </ion-segment>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #content [root]="rootPage"></ion-nav>

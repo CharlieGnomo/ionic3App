@@ -1,0 +1,18 @@
+<ion-item-sliding>
+    <ion-item>
+      <ion-avatar item-start>
+        <img [src]="item.img">
+      </ion-avatar>
+      <h2>{{item.title}}</h2>
+    </ion-item>
+    <ion-item-options side="right">
+      <button ion-button color="danger" (click)="deleteE()">
+        <ion-icon name="trash"></ion-icon>
+        Delete
+      </button>
+      <button ion-button color="secondary" (click)="saveE()">
+        <ion-icon name="checkmark"></ion-icon>
+        Save
+      </button>
+    </ion-item-options>
+  </ion-item-sliding>

@@ -1,0 +1,22 @@
+{
+    "MENU": {
+        "title": "Menu",
+        "LIST":  {
+            "home" : "Home",
+            "sliders": "Sliders",
+            "list": "List",
+            "form": "Form",
+            "events": "Events"
+        }
+    },
+    "HOME": {
+        "btnSliders" : "Go to Sliders",
+        "btnList" : "Go to List"
+    },
+    "COMP": {
+        "CARD": {
+            "title": "Card ",
+            "content": "Content "
+        }
+    }
+}
