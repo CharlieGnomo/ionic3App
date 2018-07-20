@@ -23,7 +23,7 @@ export class WebviewPage {
   }
 
   initView(){
-    this.url = 'https://gestamp.com';
+    this.url = 'https://www.as.com'; // url de ejemplo que permite cargar su contenido en iframes
   } 
 
   getUrl() {
