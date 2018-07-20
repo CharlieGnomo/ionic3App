@@ -6,7 +6,8 @@
             "sliders": "Sliders",
             "list": "List",
             "form": "Form",
-            "events": "Events"
+            "events": "Events",
+            "webview": "WebView"
         }
     },
     "HOME": {

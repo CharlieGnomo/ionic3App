@@ -21,6 +21,9 @@
       <button menuClose ion-item (click)="goToPage('EventsPage')">
           {{'MENU.LIST.events' | translate}}
       </button>
+      <button menuClose ion-item (click)="goToPage('WebviewPage')">
+          {{'MENU.LIST.webview' | translate}}
+      </button>
     </ion-list>
     <ion-segment (ionChange)="setLang($event)" color="primary">
       <ion-segment-button value="es">
